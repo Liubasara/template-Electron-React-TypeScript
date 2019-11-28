@@ -1,0 +1,23 @@
+{
+  "name": "mine",
+  "version": "1.0.0",
+  "description": "typescript + electron + react",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run build && electron dist/index.js",
+    "build": "webpack"
+  },
+  "author": "Liubasara",
+  "devDependencies": {
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "electron": "^7.1.2",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
