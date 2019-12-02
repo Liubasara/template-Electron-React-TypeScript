@@ -21,7 +21,7 @@ function createWindow () {
 }
 
 // 初始化后 调用函数
-app.on('ready', createWindow)  
+app.on('ready', createWindow)
 
 // 当全部窗口关闭时退出。
 app.on('window-all-closed', () => {

@@ -4,6 +4,7 @@
   "description": "typescript + electron + react",
   "main": "src/index.js",
   "scripts": {
+    "hot-dev": "nodemon",
     "start": "npm run build && electron dist/index.js",
     "build": "webpack"
   },
@@ -13,6 +14,7 @@
     "@types/react-dom": "^16.9.4",
     "electron": "^7.1.2",
     "html-webpack-plugin": "^4.0.0-beta.11",
+    "nodemon": "^2.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "ts-loader": "^6.2.1",
